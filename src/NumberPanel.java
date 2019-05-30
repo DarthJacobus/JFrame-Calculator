@@ -35,7 +35,7 @@ public class NumberPanel extends JPanel {
         JButton button9 = new JButton("9");
 
 
-        //Operation - and result buttons: Creation & ActionListeners
+        //Operation - and result buttons: Creation & lambda style ActionListeners
         JButton additionButton = new JButton("+");
         additionButton.addActionListener(e -> RunApplication.resultPanel.display.setText(RunApplication.resultPanel.display.getText() + " + "));
 
