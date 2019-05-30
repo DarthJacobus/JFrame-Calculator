@@ -6,8 +6,8 @@ import javax.swing.*;
 
 
 
-//The purpose of this class is A) to provide a main method that adds all panels to a master panel and
-                                             //B) to run the application
+//The purpose of this class is to provide a main method that adds all panels to a master panel and runs the application
+
 public class RunApplication
 {
 
@@ -50,21 +50,8 @@ public class RunApplication
         //Pack the frame and set it visible
         frame.pack();
         frame.setVisible(true);
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+      
+    }
 
 
 }
